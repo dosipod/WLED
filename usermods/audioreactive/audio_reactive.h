@@ -1549,7 +1549,7 @@ class AudioReactive : public Usermod {
 
       JsonArray infoArr = user.createNestedArray(FPSTR(_name));
 
-      String uiDomString = F("<button class=\"btn btn-xs\" onclick=\"requestJson({");
+      String uiDomString = F(\"<button class=\"btn btn-xs\" onclick=\"requestJson({");
       uiDomString += FPSTR(_name);
       uiDomString += F(":{");
       uiDomString += FPSTR(_enabled);
